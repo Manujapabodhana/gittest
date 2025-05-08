@@ -7,4 +7,4 @@ function sum(a,b,c){
     console.log(a+b+c);
 }
 
-sum(arr1[0],arr1[1],arr1[2]);
+sum(...arr1);
