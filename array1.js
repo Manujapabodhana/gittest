@@ -1,6 +1,7 @@
-const arr1 = [1,2,3];
-const arr2 = ['x','y','z'];
+function sum(a,b,c){
+    console.log(a+b+c);
+}
 
-const arr3 = [...arr1,...arr2];
+const arry=[1,2,3];
 
-console.log(arr3);
+sum(...arry);
