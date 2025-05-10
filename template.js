@@ -1,8 +1,5 @@
-const text="this is text";
+const name='Amoda';
+const age= 25;
 
-const text2 = `this
-      is
-            text`;
 
-console.log(text);
-console.log(text2);
+console.log(`Hi this is ${name}.i am ${age} old `);
