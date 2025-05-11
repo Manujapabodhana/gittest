@@ -11,5 +11,9 @@ class Rectangle {
     }
 }
 
+aboutMe(){
+    return `I am`
+}
+
 const newRectangle = new Rectangle(2, 5, 'red');
 console.log(newRectangle.getarea()); 
